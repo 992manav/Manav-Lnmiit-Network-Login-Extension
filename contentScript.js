@@ -8,8 +8,8 @@ window.onload = function () {
     );
 
     if (usernameInputElement && passwordInputElement) {
-      usernameInputElement.value = "";
-      passwordInputElement.value = "";
+      usernameInputElement.value = "your_username_here";
+      passwordInputElement.value = "your_password_here";
 
       const loginButtonElement = document.getElementById(
         "UserCheck_Login_Button"
